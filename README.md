@@ -42,13 +42,15 @@ public enum Day {
 }
 
 
-public class PatikaDev {
+public class  {
     public static void main(String[] args) {
 
         Day gunPzt = Day.PAZARTESI;
-        System.out.println(gunPzt.ordinal()); // Dizideki indeksini verir.
-        System.out.println(gunPzt.name()); // Sabit'in adını döndürür.
-
+        
+        System.out.println(gunPzt.ordinal()); 
+        
+        System.out.println(gunPzt.name());
+        
         Day[] values = Day.values(); // Tüm sabitlerini döndürür.
 
         Day gun = Day.valueOf("PAZARTESI"); // String'i enum'a dönüştürür.
