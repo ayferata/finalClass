@@ -51,8 +51,8 @@ public class  {
         
         System.out.println(gunPzt.name());
         
-        Day[] values = Day.values(); // Tüm sabitlerini döndürür.
+        Day[] values = Day.values(); 
 
-        Day gun = Day.valueOf("PAZARTESI"); // String'i enum'a dönüştürür.
+        Day gun = Day.valueOf("PAZARTESI"); 
     }
 }
